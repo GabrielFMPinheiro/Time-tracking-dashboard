@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/my_design_desktop.png)
+![](./design/my_project_desktop.png)
 ![](./design/my_design_phone.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://gabrielfmpinheiro.github.io/Time-tracking-dashboard/](https://gabrielfmpinheiro.github.io/Time-tracking-dashboard/)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
