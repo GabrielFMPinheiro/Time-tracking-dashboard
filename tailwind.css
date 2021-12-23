@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .active {
+    @apply text-white;
+  }
+
+  .body {
+    @apply relative -z-50 bg-very_dark_blue font-rubik pt-16 lg:w-full flex flex-col justify-center items-center lg:h-screen;
+  }
+
+  .main {
+    @apply relative -z-50 grid grid-cols-1 gap-5 justify-items-center mb-20 lg:grid-cols-4 lg:grid-rows-2 lg:w-fit lg:gap-8;
+  }
+
+  .header {
+    @apply bg-blue pl-6 py-8 rounded-xl flex items-center lg:flex-col lg:pl-8 lg:items-start lg:pt-8;
+  }
+
+  .nav {
+    @apply flex justify-around text-desaturated_blue text-lg py-5 lg:flex-col lg:gap-3 lg:pl-8 lg:pb-8;
+  }
+
+  .card {
+    @apply rounded-2xl relative overflow-hidden z-20 w-86 lg:w-64;
+  }
+
+  .card-data {
+    @apply rounded-2xl bg-dark_blue mt-10 px-6 py-6 lg:mt-11 lg:px-7 cursor-pointer hover:bg-hover_blue;
+  }
+
+  .time {
+    @apply flex items-center justify-between pt-1 lg:flex-col lg:items-start lg:pt-6 lg:gap-3;
+  }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/tailwind.css" />
+  </head>
+  <body class="body">
+    <main id="main-container" class="main">
+      <section class="bg-dark_blue rounded-xl w-86 lg:w-64 lg:row-span-2">
+        <div class="header">
+          <img
+            src="./images/image-jeremy.png"
+            alt="jeremy"
+            class="w-18 border-solid border-3 border-white rounded-full lg:w-20"
+          />
+          <h1
+            class="
+              text-sm
+              text-pale_blue
+              pl-4
+              lg:pl-0 lg:pt-10 lg:pb-10 lg:leading-6
+            "
+          >
+            Report for
+            <span
+              class="
+                text-2xl text-white
+                font-thin
+                block
+                lg:text-4.5xl lg:leading-12
+              "
+            >
+              Jeremy Robson</span
+            >
+          </h1>
+        </div>
+
+        <nav>
+          <ul class="nav">
+            <li class="hover:text-white cursor-pointer">Daily</li>
+            <li class="hover:text-white cursor-pointer active">Weekly</li>
+            <li class="hover:text-white cursor-pointer">Monthly</li>
+          </ul>
+        </nav>
+      </section>
+    </main>
+
+    <footer class="attribution text-xs text-white absolute bottom-0">
+      Challenge by
+      <a
+        class="text-violet"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#" class="text-violet">Gabriel Pinheiro</a>.
+    </footer>
+  </body>
+</html>
