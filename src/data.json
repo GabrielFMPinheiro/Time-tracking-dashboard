@@ -15,7 +15,7 @@
         "previous": 128
       }
     },
-    "image": "images/icon-work.svg",
+    "image": "./src/images/icon-work.svg",
     "bg": "bg-light_red_work"
   },
   {
@@ -34,7 +34,7 @@
         "previous": 29
       }
     },
-    "image": "images/icon-play.svg",
+    "image": "./src/images/icon-play.svg",
     "bg": "bg-soft_blue"
   },
   {
@@ -53,7 +53,7 @@
         "previous": 19
       }
     },
-    "image": "images/icon-study.svg",
+    "image": "./src/images/icon-study.svg",
     "bg": "bg-light_red_study"
   },
   {
@@ -72,7 +72,7 @@
         "previous": 18
       }
     },
-    "image": "images/icon-exercise.svg",
+    "image": "./src/images/icon-exercise.svg",
     "bg": "bg-lime_green"
   },
   {
@@ -91,7 +91,7 @@
         "previous": 23
       }
     },
-    "image": "images/icon-social.svg",
+    "image": "./src/images/icon-social.svg",
     "bg": "bg-violet"
   },
   {
@@ -110,7 +110,7 @@
         "previous": 11
       }
     },
-    "image": "images/icon-self-care.svg",
+    "image": "./src/images/icon-self-care.svg",
     "bg": "bg-soft_orange"
   }
 ]

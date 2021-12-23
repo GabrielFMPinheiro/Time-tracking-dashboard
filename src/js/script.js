@@ -1,7 +1,7 @@
 const main = document.querySelector('#main-container');
 
 async function filterObjByPeriod(period) {
-  const response = await fetch('./data.json');
+  const response = await fetch('./src/data.json');
   const data = await response.json();
 
   const newData = Object.values(data).map((e) => ({
@@ -49,7 +49,7 @@ async function createSections(data, period) {
               task.title
             )}</h1>
             <img
-              src="images/icon-ellipsis.svg"
+              src="./src/images/icon-ellipsis.svg"
               alt="ellipsis"
               class="cursor-pointer hover:brightness-200"
             />

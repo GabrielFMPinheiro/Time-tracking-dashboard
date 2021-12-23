@@ -2,7 +2,7 @@
   "name": "time-tracking-dashboard-main",
   "version": "1.0.0",
   "description": "![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)",
-  "main": "",
+  "main": "index.js",
   "scripts": {
     "dev": "TAILWIND_MODE=WATCH postcss tailwind.css -o ./src/css/tailwind.css --watch --verbose"
   },

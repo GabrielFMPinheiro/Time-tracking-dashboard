@@ -777,17 +777,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   -webkit-backdrop-filter: var(--tw-backdrop-filter);
           backdrop-filter: var(--tw-backdrop-filter);
 }
-
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-
 .hover\:brightness-200:hover {
   --tw-brightness: brightness(2);
   filter: var(--tw-filter);
 }
-
 @media (min-width: 1024px) {
 
   .lg\:right-4 {
